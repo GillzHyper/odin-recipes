@@ -1,0 +1,49 @@
+*
+{ 
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.container{
+    text-align: center;
+}
+.homeh1 {
+  display: block;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+  color: rgb(244, 153, 26);
+}
+
+.homeh1 h1 {
+  margin: 0;
+}
+.homeh2 h2{
+    margin: 0;
+}
+.h2container{
+    text-align: center;
+} 
+.homeh2{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 20px ;
+    background-color: rgb(52, 79, 31);
+    color: rgb(242, 234, 211);
+    
+}
+.homep1{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 10px 30px ;
+    padding: 10px 20px ;
+    background-color: rgb(244, 153, 26);
+    font-size: large;
+    
+    color:rgb(242, 234, 211);
+    
+}
