@@ -39,11 +39,27 @@
     display: block;
     text-align: center;
     width: fit-content;
-    margin: 10px 30px ;
+    margin: 10px auto;
     padding: 10px 20px ;
     background-color: rgb(244, 153, 26);
-    font-size: large;
-    
+    font-size: 24px;
+    font-family: sans-serif;
     color:rgb(242, 234, 211);
     
+}
+.list__head{
+    background-color: rgb(52, 79, 31);
+    color: rgb(242, 234, 211);
+    text-align: center;
+    margin: auto 70px;
+}
+.list{
+    display: block;
+   box-sizing: border-box;
+   width: fit-content;
+   padding: auto 5px;
+    background-color: rgb(242, 234, 211);
+    color: rgb(244, 153, 26);
+    max-width: 900px;
+    margin: auto;
 }
