@@ -174,10 +174,8 @@ color: rgb(242, 234, 211);
   margin: 20px auto;
   padding: 10px 20px;
 color: rgb(242, 234, 211);
-  border: 3px Solid rgb(244, 153, 26);
+  border: 4px double rgb(242, 234, 211);
  background-color: rgb(52, 79, 31);
-
-  border: 4px double rgb(52, 79, 31);
 
 }
 .List{
@@ -194,32 +192,47 @@ color: rgb(242, 234, 211);
   
 }
 
-.step_one, .step_two, .step_three, .step_four{
+.step_one,.step_three{
 text-align: center;
-  width: 200px;
-  margin: 20px auto;
+display: flex;
+  width: fit-content;
+  margin: 0px auto;
   padding: 10px 20px;
 color: rgb(242, 234, 211);
   border: 3px Solid rgb(244, 153, 26);
  background-color: rgb(52, 79, 31);
-
 }
-.Enjoy{
-   text-align: center;
-  margin: 20px auto;
+ .step_two, .step_four{
+    text-align: center;
+display: flex;
+  width: fit-content;
+  margin: 0px auto;
   padding: 10px 20px;
 color: rgb(242, 234, 211);
- background-color:rgb(244, 153, 26);
- font-size: x-large;
+  border: 3px Solid rgb(52, 79, 31);
+ background-color: rgb(244, 153, 26);
+ }
+
+
+.Enjoy{
+   display: block;
+  text-align: center;
+  
+  margin: 20px auto;
+  padding: 10px 20px;
+  color:  rgb(52, 79, 31);
+  font-size: x-large;
+  
 
 }
 .back_button{
-    display: block;
+   display: block;
   text-align: center;
   width: fit-content;
-  margin: auto;
-  padding: 5px;
-border: 4px groove rgb(244, 153, 26);
-  background-color: rgb(244, 153, 26); 
+  margin: 20px auto;
+  padding: 10px 20px;
   color: rgb(242, 234, 211);
+  background-color: rgb(244, 153, 26);
+  font-size: x-large;
+
 }
