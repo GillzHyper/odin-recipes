@@ -4,13 +4,16 @@
     font-family: 'Times New Roman', Times, serif;
    
 }
+body{
+    background-color: rgb(242, 234, 211);
+}
 .container{
     text-align: center;
 }
 .homeh1 {
   display: block;
   text-align: center;
-  width: fit-content;
+  width: 200px;
   margin: auto;
   padding: 10px 20px;
   color: rgb(244, 153, 26);
@@ -28,7 +31,7 @@
 .homeh2{
     display: block;
     text-align: center;
-    width: fit-content;
+    width: 600px;
     margin: auto;
     padding: 10px 20px ;
     background-color: rgb(52, 79, 31);
@@ -39,7 +42,7 @@
     display: block;
     text-align: center;
     width: fit-content;
-    margin: 10px auto;
+    margin: 10px 100px;
     padding: 10px 20px ;
     background-color: rgb(244, 153, 26);
     font-size: 24px;
@@ -51,15 +54,172 @@
     background-color: rgb(52, 79, 31);
     color: rgb(242, 234, 211);
     text-align: center;
-    margin: auto 70px;
+    margin: auto ;
+    width: fit-content;
 }
-.list{
+.pizzabutton{
+display: block;
+  text-align: center;
+  width: fit-content ;
+  margin: auto;
+  padding: 5px;
+border: 2px solid rgb(244, 153, 26);
+  background-color: rgb(244, 153, 26) ;
+
+}
+.pastabutton{
     display: block;
-   box-sizing: border-box;
-   width: fit-content;
-   padding: auto 5px;
-    background-color: rgb(242, 234, 211);
-    color: rgb(244, 153, 26);
-    max-width: 900px;
+  text-align: center;
+  width: fit-content;
+  background-color: rgb(244, 153, 26) ;
+  margin: 30px auto;
+  padding: 5px;
+  border: 2px solid rgb(244, 153, 26);
+
+}
+.food__collage{
+    align-items: center;
     margin: auto;
+    width: fit-content;
+
+}
+.pizzah1{
+ display: block;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+  color: rgb(244, 153, 26);
+}
+.pizzah2{
+     display: block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 10px 20px ;
+    background-color: rgb(52, 79, 31);
+    color: rgb(242, 234, 211);
+}
+.pizzaP{
+     display: block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding: 10px 20px ;
+    background-color: rgb(52, 79, 31);
+    color: rgb(242, 234, 211);
+}
+.pizzapulling {
+ display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: 10px auto;
+}
+
+.pizza__ingredients{
+    display: block;
+  text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  color: rgb(244, 153, 26);
+  border: 1px solid;
+
+}
+.dough_ing{
+
+  text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+color: rgb(242, 234, 211);
+  border: 3px dotted rgb(244, 153, 26);;
+ background-color: rgb(52, 79, 31);
+
+  
+}
+.sauce_ing{
+    text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+color: rgb(242, 234, 211);
+  border: 3px dotted rgb(244, 153, 26);;
+ background-color: rgb(52, 79, 31);
+
+}
+.cheese_ing{
+   text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+color: rgb(242, 234, 211);
+  border: 3px dotted rgb(244, 153, 26);
+ background-color: rgb(52, 79, 31);
+}
+.Ingredients_images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cheese_slab_img, .sauce_jar_img, .Dough_img{
+    border: 3px solid rgb(52, 79, 31);
+    padding: 3px;
+
+}
+.pizza_steps{
+    text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+color: rgb(242, 234, 211);
+  border: 3px Solid rgb(244, 153, 26);
+ background-color: rgb(52, 79, 31);
+
+  border: 4px double rgb(52, 79, 31);
+
+}
+.List{
+    width: fit-content;
+}
+
+.step_header{
+     display: block;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: rgb(244, 153, 26);
+  
+}
+
+.step_one, .step_two, .step_three, .step_four{
+text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+color: rgb(242, 234, 211);
+  border: 3px Solid rgb(244, 153, 26);
+ background-color: rgb(52, 79, 31);
+
+}
+.Enjoy{
+   text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+color: rgb(242, 234, 211);
+ background-color:rgb(244, 153, 26);
+ font-size: x-large;
+
+}
+.back_button{
+    display: block;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+border: 4px groove rgb(244, 153, 26);
+  background-color: rgb(244, 153, 26); 
+  color: rgb(242, 234, 211);
 }
